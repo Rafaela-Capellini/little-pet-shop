@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="icon" type="imagem-home" href="imagens/logo.jfif">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Pet Shop - Cadastro</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html">
+            <img id="logo" src="imagens/logo.jfif" alt="logo do site" />
+        </a>
+    </header>
+
+    <div>
+        <img src="imagens/banner.jfif" alt="banner" width="1440px" height="230px">
+
+    </div>
+        <header>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="login.html">LOGIN</a>
+            <a href="sobre.html">SOBRE NÓS</a>
+            <a href="cadastro.html">CADASTRO</a>
+            <a href="agendamento.html">AGENDAMENTO</a>
+            <a href="contato.html">CONTATO</a>
+        </nav>
+        </header>
+
+        <div id="container">
+            <div id="cadastro-conteudo">
+                <div id="dados-cadastro">
+                    
+                    <div>
+                    <h2>Faça o cadastro do seu Pet</h2>
+                        
+                        <form id="frm-cadastro" action="#">
+                        <p>
+                        <input id="frm-nome-dono" type="text" placeholder="Nome do dono" required />
+                        </p>
+
+                        <p>
+                        <textarea id="frm-observação" rows="5" placeholder="Observação"></textarea>
+                        </p>
+
+                        <p>
+                        <input id="frm-pet" type="email" placeholder="Nome do pet" required />
+                        </p>
+                        
+                        <label for="frm-genero">Sexo</label>
+                        <select name="frm-porte">
+                            <option value="orcamento">Masculino</option>          
+                            <option value="pedidos">Feminino</option>
+                        </select>
+
+                        <label for="frm-porte">Porte</label>
+                        <select name="frm-porte">
+                            <option value="Grande">Grande</option>          
+                            <option value="Medio">Médio</option>
+                            <option value="pequeno">Peqeuno</option>
+                        </select>
+
+                        <div id="frm-buttons">
+                            <button id="botao-enviar" type="submit" formaction="#">Enviar</button>
+                            <button id="botao-cancelar" type="reset" formaction="#">Apagar</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.1405114403383!2d-48.56691658511987!3d-22.46135348524014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c74f8b1e0b6693%3A0xdfd4e7c6b4b1baea!2sServi%C3%A7o%20Social%20da%20Ind%C3%BAstria%20SESI!5e0!3m2!1spt-BR!2sbr!4v1677779980282!5m2!1spt-BR!2sbr"
+                 width="100%" height="100%" style="border-radius: 20px; border-color: black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    
+    <br /> <br /> <br /> <br /> <br /> <br />
+<footer>
+    LITTLE PET SHOP - todos os direitos reservados &copy;
+</footer>
+    
+</body>
+
+</html>
